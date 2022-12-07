@@ -32,4 +32,4 @@ jobs:
             --region ap-northeast-2 \
             build s3://fe-98-samsamgo-s3 \
             --delete
-        working-directory: "./MY-AGORA-STATES-SERVER/my-agora-states-client"
+        working-directory: "./my-agora-state-pratice/my-agora-states-client"
