@@ -30,6 +30,6 @@ jobs:
         run: |
           aws s3 sync \
             --region ap-northeast-2 \
-            build s3://fe-98-samsamgo-s3/ \
+            build s3://fe-98-samsamgo-s3/CICD \
             --delete
         working-directory: ./my-agora-states-client
